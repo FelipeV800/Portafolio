@@ -1,0 +1,25 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Este es un pequeño portafolio presentado como Web Design de Felipe Vasquez",
+  "main": "index.html",
+  "scripts": {
+	"dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://FelipeV800@bitbucket.org/FelipeV800/portafolio.git"
+  },
+  "author": "Felipe Vasquez",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/FelipeV800/portafolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
