@@ -1,13 +1,59 @@
 .jumbotron{
-	background-color:orange;
+	background-color:#06F;
 	color:#FFF;
 	font:bold 2.5em Viga, Impact, Arial;
 }
 
-.card-mainav{
-	background-color:#FC0;
-}
-
 .navbar-brand{
 	color:white;
+}
+
+.card-list{
+	height:80px;
+	
+}
+
+nav a{
+	font:bold 0.6em Viga,Verdana,Arial;
+	color:#FFF;
+}
+
+img{
+	margin-top:8px;
+	height:80px;
+	width:90px;
+	float:left;
+}
+
+hgroup{
+	padding-left:105px;
+}
+
+footer{
+	background-color:#06F;
+	color:#FFF;
+	font:bold 2.5em Viga, Impact, Arial;
+}
+
+h3{
+	font:bold 1.8em Viga, Impact, Arial;
+}
+
+p{
+	font:1.2em Verdana;
+}
+
+.btn-reserva{
+	background-color:#3CF;
+	color:#FFF;
+	border-radius:8px;
+}
+
+footer address{
+	color:#FFF;
+}
+
+footer a{
+	font:bold 2em Viga,Verdana,Arial;
+	color:#FFF
 }
