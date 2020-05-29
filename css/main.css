@@ -69,3 +69,8 @@ footer a{
 .footer-icons{
 	margin-right:8px;
 }
+
+.img-fluid{
+	width:100%;
+	height:300px;
+}
