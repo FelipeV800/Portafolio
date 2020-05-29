@@ -2,10 +2,16 @@
 	background-color:#06F;
 	color:#FFF;
 	font:bold 2.5em Viga, Impact, Arial;
+	margin-top:50px;
 }
 
 .navbar-brand{
 	color:white;
+}
+
+.card-hotel{
+	flex:1 200px;
+	margin-top:10px;
 }
 
 .card-list{
@@ -13,12 +19,11 @@
 	
 }
 
-nav a{
-	font:bold 0.6em Viga,Verdana,Arial;
-	color:#FFF;
+nav{
+	font:bold 1.2em Viga,Verdana,Arial;
 }
 
-img{
+#thumbimg{
 	margin-top:8px;
 	height:80px;
 	width:90px;
@@ -26,16 +31,15 @@ img{
 }
 
 hgroup{
-	padding-left:105px;
+	padding-left:120px;
 }
 
 footer{
 	background-color:#06F;
 	color:#FFF;
-	font:bold 2.5em Viga, Impact, Arial;
 }
 
-h3{
+section h1,h3{
 	font:bold 1.8em Viga, Impact, Arial;
 }
 
@@ -46,7 +50,7 @@ p{
 .btn-reserva{
 	background-color:#3CF;
 	color:#FFF;
-	border-radius:8px;
+	width:100%;
 }
 
 footer address{
@@ -54,6 +58,14 @@ footer address{
 }
 
 footer a{
-	font:bold 2em Viga,Verdana,Arial;
-	color:#FFF
+	font:1.8em Viga,Verdana,Arial;
+	color:#FFF;
+}
+
+.home-icon{
+	color:#FFF;
+}
+
+.footer-icons{
+	margin-right:8px;
 }

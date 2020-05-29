@@ -20,11 +20,11 @@
             </button>
             <div class="collapse navbar-collapse ml-3" id="NavCollapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./about.html">Sobre mi</a></li>
                     <li class="nav-item"><a class="nav-link" href="./proyects.html">Proyectos</a></li>
                     <li class="nav-item"><a class="nav-link" href="./certificate.html">Certificaciones</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./contact.html">Contacto</a></li>
                 </ul>
             </div>
     	</nav>
@@ -40,57 +40,55 @@
         
         <section class="d-flex flex-wrap">
      		<div class="container">
-                <nav aria-lebel="breadcrumb">
+            	<nav aria-lebel="breadcrumb">
                 	<ol class="breadcrumb">
-                        <li class="breadcrumb-item active" aria-current="page">Home</li>
+                        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
                     </ol>
                 </nav>
-                <div class="d-flex flex-wrap">
-                	<div class="card card-hotel d-flex flex-column  justify-content-between mr-2">
-            			<div class="card-body">
-                            <h5 class="card-title">Diseño WEB</h5>
-                            <h6 class="card-subtitle text-muted">Kit</h6>
-                            <img class="card-img-top" src="images/webProduct.jpg" alt="responsive img">
-                            <p class="mt-2">¿Estas buscando posicionarte el mundo digital?, Contactame</p>
-                		</div>
-                		<div>
-                			<button class="btn btn-reserva">Contactar</button>
-                		</div>
-            		</div>
-                    <div class="card card-hotel d-flex flex-column  justify-content-between mr-2">
-            			<div class="card-body">
-                            <h5 class="card-title">Aplicacion movil</h5>
-                            <h6 class="card-subtitle text-muted">Kit</h6>
-                            <img class="card-img-top" src="images/android.jpg" alt="responsive img">
-                            <p class="mt-2">¿Buscas una solucion a un problema a traves de tecnologia?; escribeme</p>
-                		</div>
-                		<div>
-                			<button class="btn btn-reserva">Contactar</button>
-                		</div>
-            		</div>
-                    <div class="card card-hotel d-flex flex-column  justify-content-between mr-2">
-            			<div class="card-body">
-                            <h5 class="card-title">Diseño de Marketing</h5>
-                            <h6 class="card-subtitle text-muted">Kit</h6>
-                            <img class="card-img-top" src="images/marketing.jpg" alt="responsive img">
-                            <p class="mt-2">¿Tu empresa necesita un empuje?; ¡cuenta conmigo!.</p>
-                		</div>
-                		<div>
-                			<button class="btn btn-reserva">Contactar</button>
-                		</div>
-            		</div>
-                    <div class="card card-hotel d-flex flex-column  justify-content-between mr-2">
-            			<div class="card-body">
-                            <h5 class="card-title">Diseño de logo</h5>
-                            <h6 class="card-subtitle text-muted">producto</h6>
-                            <img class="card-img-top" src="images/diseñoLogo.jpg" alt="responsive img">
-                            <p class="mt-2">¿Tu empresa necesita un nuevo logo?; ¡cuenta conmigo!.</p>
-                		</div>
-                		<div>	
-                			<button class="btn btn-reserva">Contactar</button>
-                		</div>
-            		</div>
-             	</div>
+                
+                <h1>Contactame.</h1>
+                
+                <form>
+                	<div class="form-row">
+                    	<div class="form-group col-sm-6">
+                        	<label for="nombre">Nombre</label>
+                        	<input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    	</div>
+                    	<div class="form-group col-sm-6">
+                        	<label for="apellido">Apellido</label>
+                        	<input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                   	 	</div>
+                	</div>
+                    <div class="form-row">
+                    	<div class="form-group col-sm-9">
+                        	<label for="email">Email</label>
+                        	<input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                   		</div>
+                        <div class="form-group col-sm-3">
+                            <label for="ciudad">Selecciona el motivo</label>
+                            <select id="ciudad" class="form-control">
+                                <option>Diseño Web</option>
+                                <option>Diseño de un proyecto de aplicaciones</option>
+                                <option>Diseño de marketing</option>
+                                <option>Otro motivo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comentario">Cuentame que necesitas</label>
+                        <textarea id="comentario" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Deseo recibir correos de Felipe Vasquez.
+                            </label>
+                        </div>
+                    </div>
+                	<button type="submit" class="btn btn-primary">Enviar</button>   
+        		</form>
           	</div>
         </section>
         
