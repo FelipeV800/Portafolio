@@ -49,55 +49,94 @@
                 <h1>Proyectos.</h1>
                 <p>Acontinuacion se ven unos proyectos elaborados por mi donde se ven algunos detalles de ellos</p>
                 <hr>
-                <div class="table-responsive">
-            	<table class="table table-striped">
-                    <thead class="thead-dark">
-                        <th>Nombre del proyecto</th>
-                        <th>Duracion en proyecto</th>
-                        <th>Equipo de trabajo</th>
-                        <th>Lenguajes usados</th>
-                        <th>Rating</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Diseño de pagina web de Flores</td>
-                            <td>2 dias</td>
-                            <td>Trabajo Individual</td>
-                            <td>HTML5, CSS3 y JS con Bootstrap</td>
-                            <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Diseño de pagina web de Hoteles</td>
-                            <td>2 semanas</td>
-                            <td>Trabajo Individual</td>
-                            <td>HTML5, CSS3 y JS con Bootstrap</td>
-                            <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Diseño de pagina web de DistricarsAutomotriz</td>
-                            <td>2 semanas</td>
-                            <td>Trabajo Individual</td>
-                            <td>HTML5, CSS3 y JS con Bootstrap</td>
-                            <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Diseño de aplicacion movil HobbyCenter</td>
-                            <td>1 mes</td>
-                            <td>Trabajo con cinco personas</td>
-                            <td>JAVA</td>
-                            <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Diseño de aplicacion movil PoliticsNow</td>
-                            <td>6 meses</td>
-                            <td>Trabajo con otra persona</td>
-                            <td>JAVA</td>
-                            <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                        </tr>
-                	</tbody>
-            	</table>
-        		</div>
-          	</div>
+                <ul class="nav nav-pills" id="myTab" role="tablist">
+                    <li class="nav-item">
+                    	<a class="nav-link active" id="web-tab" data-toggle="tab" href="#web" role="pill" aria-controls="web" aria-selected="true">Proyectos web</a>
+                    </li>
+                    <li class="nav-item">
+                    	<a class="nav-link" id="apps-tab" data-toggle="tab" href="#apps" role="pill" aria-controls="apps" aria-selected="false">Aplicaciones con Java</a>
+                    </li>
+                    <li class="nav-item">
+                    	<a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="pill" aria-controls="comentarios" aria-selected="false">Comentarios</a>
+                    </li>
+        		</ul>
+       			<div class="tab-content" id="myTabContent">
+        			<div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead class="thead-light">
+                                    <th>Nombre de la pagina web</th>
+                                    <th>Duracion en proyecto</th>
+                                    <th>Equipo de trabajo</th>
+                                    <th>Rating</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Flores</td>
+                                        <td>2 dias</td>
+                                        <td>Trabajo Individual</td>
+                                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hoteles</td>
+                                        <td>2 semanas</td>
+                                        <td>Trabajo Individual</td>
+                                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>DistricarsAutomotriz</td>
+                                        <td>2 semanas</td>
+                                        <td>Trabajo Individual</td>
+                                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Portafolio</td>
+                                        <td>3 semanas</td>
+                                        <td>Trabajo individual</td>
+                                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+            		</div>
+                    <div class="tab-pane fade" id="apps" role="tabpanel" aria-labelledby="apps-tab">
+                    	<div class="table-responsive">
+                        	<table class="table table-striped">
+                                <thead class="thead-light">
+                                    <th>Nombre de la aplicacion</th>
+                                    <th>Duracion en proyecto</th>
+                                    <th>Equipo de trabajo</th>
+                                    <th>Rating</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Diseño de aplicacion movil HobbyCenter</td>
+                                        <td>1 mes</td>
+                                        <td>Trabajo con cinco personas</td>
+                                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Diseño de aplicacion movil PoliticsNow</td>
+                                        <td>6 meses</td>
+                                        <td>Trabajo con otra persona</td>	
+                                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Diseño aplicacion escritorio simulacion netflix</td>
+                                        <td>2 semanas</td>
+                                        <td>Trabajo individual</td>
+                                        <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+                        <h5>Comentarios.</h5>
+                        <p>estos son algunos comentarios de usuarios de estos proyectos</p>
+            		</div>
+          		</div>
+            </div>
         </section>
         
         <footer class="blockquote-footer mt-4">
