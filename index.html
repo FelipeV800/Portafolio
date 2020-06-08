@@ -77,7 +77,7 @@
                 	<div class="card card-hotel d-flex flex-column  justify-content-between mr-2">
             			<div class="card-body">
                             <h5 class="card-title">Diseño WEB</h5>
-                            <h6 class="card-subtitle text-muted">Kit<span data-toggle="tooltip" data-placement="top" title="incluye mas de un solo producto" class="oi oi-question-mark question-iconic"></span></h6>
+                            <h6 class="card-subtitle text-muted">Kit<span data-toggle="tooltip" data-placement="right" title="incluye mas de un solo producto" class="oi oi-question-mark question-iconic"></span></h6>
                             <img class="card-img-top mt-2" src="images/webProduct.jpg" alt="responsive img">
                             <p class="mt-2">¿Estas buscando posicionarte el mundo digital?, Contactame</p>
                 		</div>
@@ -88,7 +88,7 @@
                     <div class="card card-hotel d-flex flex-column  justify-content-between mr-2">
             			<div class="card-body">
                             <h5 class="card-title">Aplicacion movil</h5>
-                            <h6 class="card-subtitle text-muted">Kit<span data-toggle="tooltip" data-placement="top" title="incluye mas de un solo producto" class="oi oi-question-mark question-iconic"></span></h6>
+                            <h6 class="card-subtitle text-muted">Kit<span data-toggle="tooltip" data-placement="right" title="incluye mas de un solo producto" class="oi oi-question-mark question-iconic"></span></h6>
                             <img class="card-img-top mt-2" src="images/android.jpg" alt="responsive img">
                             <p class="mt-2">¿Buscas una solucion a un problema a traves de tecnologia?; escribeme</p>
                 		</div>
@@ -99,7 +99,7 @@
                     <div class="card card-hotel d-flex flex-column  justify-content-between mr-2">
             			<div class="card-body">
                             <h5 class="card-title">Diseño de Marketing</h5>
-                            <h6 class="card-subtitle text-muted">Kit<span data-toggle="tooltip" data-placement="top" title="incluye mas de un solo producto" class="oi oi-question-mark question-iconic"></span></h6>
+                            <h6 class="card-subtitle text-muted">Kit<span data-toggle="tooltip" data-placement="right" title="incluye mas de un solo producto" class="oi oi-question-mark question-iconic"></span></h6>
                             <img class="card-img-top mt-2" src="images/marketing.jpg" alt="responsive img">
                             <p class="mt-2">¿Tu empresa necesita un empuje?; ¡cuenta conmigo!.</p>
                 		</div>
@@ -185,17 +185,17 @@
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="node_modules/jquery/dist/jquery.min.js"></script>
-		<script src="node_modules/popper.js/dist/popper.min.js"></script>
+		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         
         <script>
-			$(function (){
-				$("[data-toggle='tooltip']").tooltip()
+			$(function () {
+			  $('[data-toggle="tooltip"]').tooltip();
 			});
-			
 			$('.carousel').carousel({
-				  interval: 1300
+				interval:1800
 			});
 		</script>
+        
 	</body>
 </html>
