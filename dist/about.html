@@ -5,11 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- build:css css/index.css -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-        <!-- endbuild -->
+		<link rel="stylesheet" href="css/index.9f8395eeb9f747a6ff51.css">
 
 		<title>Felipe Vasquez</title>
 	</head>
@@ -22,10 +18,10 @@
             <div class="collapse navbar-collapse ml-3" id="NavCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./about.html">Sobre mi</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./about.html">Sobre mi</a></li>
                     <li class="nav-item"><a class="nav-link" href="./proyects.html">Proyectos</a></li>
                     <li class="nav-item"><a class="nav-link" href="./certificate.html">Certificaciones</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="./contact.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
                 </ul>
             </div>
     	</nav>
@@ -44,52 +40,55 @@
             	<nav aria-lebel="breadcrumb">
                 	<ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                        <li class="breadcrumb-item active" aria-current="page">Sobre mi</li>
                     </ol>
                 </nav>
-                
-                <h1>Contactame.</h1>
-                
-                <form>
-                	<div class="form-row">
-                    	<div class="form-group col-sm-6">
-                        	<label for="nombre">Nombre</label>
-                        	<input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
-                    	</div>
-                    	<div class="form-group col-sm-6">
-                        	<label for="apellido">Apellido</label>
-                        	<input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
-                   	 	</div>
-                	</div>
-                    <div class="form-row">
-                    	<div class="form-group col-sm-9">
-                        	<label for="email">Email</label>
-                        	<input type="email" class="form-control" id="email" placeholder="Ingrese su email">
-                   		</div>
-                        <div class="form-group col-sm-3">
-                            <label for="producto">Selecciona el motivo</label>
-                            <select id="producto" class="form-control">
-                                <option>Diseño Web</option>
-                                <option>Diseño de un proyecto de aplicaciones</option>
-                                <option>Diseño de marketing</option>
-                                <option>Otro motivo</option>
-                            </select>
+                <div class="accordion" id="accordionAbout">
+  					<div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#about" aria-expanded="false" aria-controls="acercaDeMI">
+                              Acerca de mi:
+                            </button>
+                          </h2>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="comentario">Cuentame que necesitas</label>
-                        <textarea id="comentario" class="form-control" rows="5"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                                Deseo recibir correos de Felipe Vasquez.
-                            </label>
+                        <div id="about" class="collapse" aria-labelledby="headingOne" data-parent="#accordionAbout">
+                          <div class="card-body">
+                            <p>Soy un estudiante de ingenieria de software, tengo 19 años y soy una apasionado por la programacion y el diseño; geek con mucha influencia de los videojuegos.</p>
+                          </div>
                         </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#estudios" aria-expanded="false" aria-controls="estudios">
+                              Estudios:
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="estudios" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionAbout">
+                          <div class="card-body">
+                            <p>- Ingeniero de software de la universidad Manuela Beltran, Bogotá, Colombia</p>
+                            <p>- Ingles avanzado en TopEnglish</p>
+                            <p>- Curso de programacion en java para aplicaciones en android, Coursera</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#aspiraciones" aria-expanded="false" aria-controls="aspiraciones">
+                              Aspiraciones:
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="aspiraciones" class="collapse" aria-labelledby="headingThree" data-parent="#accordionAbout">
+                          <div class="card-body">
+                			<p>Aspiro a realizar de la mejor manera los trabajos que se me propogan haciendo clientes felices y ampliando mi portafolio.</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                	<button type="submit" class="btn btn-primary">Enviar</button>   
-        		</form>
           	</div>
         </section>
         
@@ -120,11 +119,6 @@
         </footer>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<!-- build:js js/index.js -->
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="js/index.js"></script>
-        <!-- endbuild -->
+		<script src="js/index.c19e202c81984e1cb597.js"></script>
 	</body>
 </html>

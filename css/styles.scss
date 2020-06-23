@@ -1,0 +1,109 @@
+$yellow: #fffa19;
+$red: #c9241e;
+$green: #32a852;
+$blue: #557af2;
+$black: #000000;
+$white: #ffffff;
+
+@mixin margenestb($top, $bottom){
+	margin-top: $top;
+	margin-bottom: $bottom;
+}
+
+@mixin margenesrl($right, $left){
+	margin-right: $right;
+	margin-left: $left;
+}
+
+@mixin dimensiones($height, $width){
+	height: $height;
+	width: $width;
+}
+
+.jumbotron{
+	background-color: $blue;
+	color: $white;
+	font:bold 2.5em Viga, Impact, Arial;
+	@include margenestb(50px, 0px);
+}
+
+.navbar-brand{
+	color: $white;
+}
+
+.card-hotel{
+	flex:1 200px;
+	@include margenestb(10px, 0px);
+}
+
+.card-list{
+	height:80px;
+}
+
+nav{
+	font:bold 1.2em Viga,Verdana,Arial;
+}
+
+#thumbimg{
+	@include margenestb(8px, 0px);
+	@include dimensiones(80px, 90px);
+	float:left;
+}
+
+hgroup{
+	padding-left:120px;
+}
+
+footer{
+	background-color: $blue;
+	color: $white;
+}
+
+section h1,h3{
+	font:bold 1.8em Viga, Impact, Arial;
+}
+
+p{
+	font:1.2em Verdana;
+}
+
+.btn-reserva{
+	background-color: $green;
+	color: $white;
+	width:100%;
+}
+
+footer address{
+	color:$white;
+}
+
+footer a{
+	font:1.8em Viga,Verdana,Arial;
+	color: $white;
+}
+
+.home-icon{
+	color:$white;
+}
+
+.footer-icons{
+	@include margenesrl(8px, 0px);
+}
+
+.img-fluid{
+	@include dimensiones(300px, 100%);
+}
+
+.tab-content{
+	padding-top:10px;
+}
+
+.img-certificado{
+	height:500px;
+}
+
+.question-iconic{
+	@include margenestb(0px, 10px);
+	color:#999;
+	font-size:18px;
+}
